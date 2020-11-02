@@ -12,8 +12,9 @@ B207-220 Test execution
 
 
 URL: http://library2.cybertekschool.com/#dashboard
+
 Username: librarian19@library
- Password: 6M0J2Wr7
+Password: 6M0J2Wr7
 
 User Story 1 : 
 As a user, I should be able to access all the given features 	under Book Management
