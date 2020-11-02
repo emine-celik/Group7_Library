@@ -4,11 +4,9 @@
 B207-217 User story for Book Management (User story 1 )
 B207-221 Test Set for Book Management
 
-================================
 B207-218 User story for User Management (User story 2)
 B207-222 Test Set for User Management
 
-================================
 B207-219 Test plan
 B207-220 Test execution
 
