@@ -6,22 +6,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Driver {
-
-
-
-
-
     private Driver(){ }
 
-
-
     private static WebDriver driver;
-
 
     public static WebDriver getDriver() {
         if(driver == null){
             String browser = ConfigurationReader.getProperty("browser");
-
             switch (browser){
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
@@ -38,18 +29,10 @@ public class Driver {
         return driver;
     }
 
-
-
     public static void closeDriver(){
         if(driver != null){
             driver.quit();
             driver = null;
         }
     }
-
-
-
-
-
-
 }
