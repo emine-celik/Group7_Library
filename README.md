@@ -3,17 +3,18 @@
 
 B207-217 User story for Book Management (User story 1 )
 B207-221 Test Set for Book Management
-================================
+
 B207-218 User story for User Management (User story 2)
 B207-222 Test Set for User Management
-================================
+
 B207-219 Test plan
 B207-220 Test execution
 
 
 URL: http://library2.cybertekschool.com/#dashboard
+
 Username: librarian19@library
- Password: 6M0J2Wr7
+Password: 6M0J2Wr7
 
 User Story 1 : 
 As a user, I should be able to access all the given features 	under Book Management
@@ -30,8 +31,10 @@ AC3: Verify that the user can pick how many records they want to see at once. ( 
 AC4: Verify that the user can edit a book after it was created
 @Aslan Demir
 
-AC5: Verify that the user can Search for a book
-@Emine Celik
+AC5: Veryify that the user can Search for a book
+@Emine
+
+
 ======================================
 
 User Story 2 :
