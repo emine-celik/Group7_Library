@@ -8,12 +8,8 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage extends BasePage{
 
 
-    @FindBy(id = "inputEmail")
-    private WebElement userNameInputBox;
-
-    @FindBy(id = "inputPassword")
-    private WebElement passwordInputBox;
-
+    @FindBy(id = "inputEmail") private WebElement userNameInputBox;
+    @FindBy(id = "inputPassword") private WebElement passwordInputBox;
 
     // in the parameter (role) , enter either "librarian" or "student"
     public void login(String role) {
