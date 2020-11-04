@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = "com/Cybertek/Library/step_definitions",
         features = "src/test/resources/features",
-        dryRun = false
+        dryRun = false,
+        tags = "@add_user"
 )
 
 public class CucumberRunner {
