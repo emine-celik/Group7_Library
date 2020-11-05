@@ -47,9 +47,10 @@ AddUserPage addUserPage=new AddUserPage();
 
     @Then("user see registered name on the table")
     public void user_see_registered_name_on_the_table() {
-        String actual = addUserPage.registeredName.getText();
-        String expected="Tester";
-         BrowserUtils.waitForVisibility(addUserPage.registeredName, 3);
+        BrowserUtils.waitForVisibility(addUserPage.groupName, 3);
+
+        String actual = addUserPage.groupName.getText();
+        String expected="Librarian";
         Assert.assertEquals(expected, actual);
     }
 

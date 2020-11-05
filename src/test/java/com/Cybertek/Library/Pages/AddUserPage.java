@@ -25,8 +25,8 @@ public class AddUserPage extends  BasePage{
     @FindBy (xpath = "//button[.='Save changes']")
     public WebElement saveBtn;
 
-    @FindBy (xpath = "//tr/td[3]")
-    public WebElement registeredName;
+    @FindBy (xpath = "//tr/td[5]")
+    public WebElement groupName;
 
     public void clickSaveBtn(){
         saveBtn.click();
