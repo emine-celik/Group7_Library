@@ -50,7 +50,7 @@ AddUserPage addUserPage=new AddUserPage();
         BrowserUtils.waitForVisibility(addUserPage.groupName, 3);
 
         String actual = addUserPage.groupName.getText();
-        String expected="Librarian";
+        String expected="ACTIVE";
         Assert.assertEquals(expected, actual);
     }
 
