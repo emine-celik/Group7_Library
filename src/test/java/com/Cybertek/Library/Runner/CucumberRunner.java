@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         glue = "com/Cybertek/Library/step_definitions",
         features = "src/test/resources/features",
         dryRun = false,
-        tags = "@search"
+        tags = "@user"
 )
 
 public class CucumberRunner {
