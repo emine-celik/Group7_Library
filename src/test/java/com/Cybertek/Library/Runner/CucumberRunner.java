@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = "com/Cybertek/Library/step_definitions",
-        features = "src/test/resources/features",
-        dryRun = false,
-        tags = "@user"
+        features="src/test/resources/features",
+        glue="com/Cybertek/Library/step_definitions",
+        dryRun=false,
+        tags="@editBook"
 )
 
 public class CucumberRunner {
